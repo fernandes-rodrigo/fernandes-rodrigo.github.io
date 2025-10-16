@@ -8,8 +8,18 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-  <div style="padding-left: 2em; padding-bottom: 1em; font-size: 0.9em;">
-    {{ post.content | markdownify }}
+  <div style="margin-bottom: 2em;">
+    <h3 style="margin-bottom: 0.1em; font-size: 1.1em; font-weight: bold;">
+      {{ post.title }}
+    </h3>
+    <p style="margin: 0; font-size: 0.95em;">
+      {{ post.location }}, {{ post.venue }}, {{ post.date | date: "%Y" }}
+    </p>
+    
+    {% if post.content != "" %}
+      <div style="font-size: 0.95em; margin-top: 0.5em;">
+        {{ post.content | markdownify }}
+      </div>
+    {% endif %}
   </div>
 {% endfor %}
