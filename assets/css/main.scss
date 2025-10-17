@@ -46,7 +46,7 @@
 
 // Altera a foto de perfil do autor para quadrada
 .author__avatar img {
-  border-radius: 4; // 0 faz os cantos serem quadrados
+  border-radius: 0; // 0 faz os cantos serem quadrados
   // Se quiser cantos um pouco arredondados (sem ser um círculo perfeito)
   // você pode usar border-radius: 5px; (ou outro valor menor)
 }
