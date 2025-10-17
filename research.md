@@ -19,7 +19,7 @@ author_profile: true
     
     {% if paper.abstract %}
     <details style="margin-top: 1em;">
-      <summary style="cursor: pointer; color: var(--link-color, #0066cc); font-weight: 500;">▼ Abstract</summary>
+      <summary style="cursor: pointer; color: var(--link-color, #0066cc); font-weight: 500;">Abstract</summary>
       <div style="margin-top: 1em; padding-left: 1em; border-left: 3px solid #eee;">
         {{ paper.abstract }}
       </div>
