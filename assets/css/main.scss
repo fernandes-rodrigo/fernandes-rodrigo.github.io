@@ -50,3 +50,8 @@
   // Se quiser cantos um pouco arredondados (sem ser um círculo perfeito)
   // você pode usar border-radius: 5px; (ou outro valor menor)
 }
+
+body {
+  background-image: url('/images/imagem_2025-10-17_093815394.png');
+  background-repeat: repeat; // ou 'no-repeat' com 'background-size: cover;'
+}
