@@ -18,6 +18,8 @@ url                      : https://fernandes-rodrigo.github.io # The base hostna
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fernandes-rodrigo/fernandes-rodrigo.github.io"
 logo: "/images/favicon.png"
+sans_serif: "'Lato', 'Helvetica', 'Arial', 'sans-serif'"
+serif: "'Roboto Slab', 'Georgia', 'Times', 'serif'"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
