@@ -41,3 +41,12 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Meus Estilos Personalizados */
+
+// Altera a foto de perfil do autor para quadrada
+.author__avatar img {
+  border-radius: 0; // Isso faz os cantos serem quadrados
+  // Se quiser cantos um pouco arredondados (sem ser um círculo perfeito)
+  // você pode usar border-radius: 5px; (ou outro valor menor)
+}
