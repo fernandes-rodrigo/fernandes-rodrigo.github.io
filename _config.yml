@@ -27,7 +27,7 @@ serif: "'Roboto Slab', 'Georgia', 'Times', 'serif'"
 author:
   # Biographic information
   avatar           : "profile_me.png"
-  name             : "Rodrigo Fernandes"
+  name             : #"Rodrigo Fernandes"
   pronouns         : # example: "she/her"  
 #  bio              : "Short biography for the left-hand sidebar"
   location         : "Bonn, Germany"
